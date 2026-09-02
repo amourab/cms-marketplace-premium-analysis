@@ -114,21 +114,7 @@ The source files are not stored in this repository because they are large and ar
 - scikit-learn
 - Jupyter Notebook / Kaggle
 
-## Reproducing the analysis
 
-1. Download or attach the 2026 Rate PUF and Plan Attributes PUF.
-2. Place both datasets in the Kaggle notebook input area.
-3. Open the notebook and select **Run All**.
-4. Save a completed Kaggle version after every cell has finished.
-
-The notebook searches the Kaggle input folders for the required CSV or ZIP files and creates the modelling data during the run.
-
-## Limitations
-
-- The results explain listed premiums, not the final amount paid after subsidies.
-- The analysis is observational and does not prove that every relationship is causal.
-- Some potentially relevant information, including provider-network quality and internal insurer pricing decisions, is not fully represented in the public files.
-- Actuarial value and deductible fields contain missing values, so models handle missingness instead of treating these fields as complete.
 
 ## Conclusion
 
